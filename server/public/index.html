@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Salary Calculator</title>
+    <script src="vendors/jquery.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div id="wholePage">
+    <h1>Salary Calculator</h1>
+    <h3>Add Employee</h3>
+    <div id="userInput">
+      <form>
+        <input id="fnInput" class="input" type="text" placeholder="First Name">
+        <input id="lnInput" class="input" type="text" placeholder="Last Name">
+        <input id="idInput" class="input" type="number" placeholder="ID Number">
+        <input id="titleInput" class="input" type="text" placeholder="Job Title">
+        <input id="salaryInput" class="input" type="number" placeholder="Annual Salary">
+        <button type="reset" id="submitButton">Calculate</button>
+      </form>
+    </div>
+    <div class="table">
+      <br><table id="salaryTable">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID Number</th>
+            <th>Job Title</th>
+            <th>Annual Salary</th>
+          </tr>
+        </thead>
+        <tbody id=tableBody>
+        </tbody>
+      </table>
+      <div class="removeField">
+        <form class="removeEmployee">
+          <button id="removeButton" type="reset" class="button">Remove Employee</button>
+          <input id="removeInput" type="number" placeholder="Employee ID">
+        </form>
+      </div>
+      <div id="totalSalary">
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+#wholePage {
+  background-color: lightblue;
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+}
+/* form css below */
+#userInput {
+  padding: 5px;
+}
+/* table css below */
+#salaryTable {
+  width: 100%;
+  padding: 5px;
+  border-collapse: collapse;
+}
+.worker {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.worker:hover {
+  background-color: #ddd;
+}
+.removeEmployee {
+  padding-top: 20px;
+}
+
+/* total salary color update below */
+.redSalary {
+  background-color: crimson;
+  float: right;
+  color: white;
+}
+.greenSalary {
+  background-color: chartreuse;
+  float: right;
+}

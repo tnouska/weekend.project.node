@@ -1,0 +1,25 @@
+{
+  "name": "weekend.project.node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnouska/weekend.project.node.git"
+  },
+  "author": "Teagan Nouska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnouska/weekend.project.node/issues"
+  },
+  "homepage": "https://github.com/tnouska/weekend.project.node#readme"
+}
